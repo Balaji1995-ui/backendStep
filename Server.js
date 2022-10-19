@@ -171,14 +171,14 @@ const host = '0.0.0.0'
 app.listen(port, host, ()=> console.log(`server is running on port ${port}`));
 
 const db= mysql.createConnection({
-    host:process.env.DATABASE_HOST,
-    user:process.env.DATABASE_USER,
-    password:process.env.DATABASE_PASS,
-    database:process.env.DATABASE,
-    // host:'localhost',
-    // user:'root',
-    // password:'root',
-    // database:'visual',
+//     host:process.env.DATABASE_HOST,
+//     user:process.env.DATABASE_USER,
+//     password:process.env.DATABASE_PASS,
+//     database:process.env.DATABASE,
+     host:'localhost',
+     user:'root',
+     password:'root',
+     database:'visual',
     // host:'sql6.freesqldatabase.com',
     // user:'sql6527670',
     // password:'jphXaqipxP',
