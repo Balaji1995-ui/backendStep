@@ -174,7 +174,7 @@ const db= mysql.createConnection({
     host:process.env.DATABASE_HOST,
     user:process.env.DATABASE_USER,
     password:process.env.DATABASE_PASS,
-    database:process.env.DATABASE,cd
+    database:process.env.DATABASE,
     // host:'localhost',
     // user:'root',
     // password:'root',
